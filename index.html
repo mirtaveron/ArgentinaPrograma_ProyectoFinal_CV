@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curriculum Vitae</title>
+
+
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/adminlte.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+<script src="js/adminlte.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-primary card-outline">
+                        <div class="card-body box-profile">
+                            <div class="text-center">
+                                <img class="profile-user-img img-fluid img-circle zoom" alt="User profile picture" id="userImage">
+                            </div>
+                            <h3 class="profile-username text-center" id="userName"></h3>
+                            <p class="text-muted text-center">Software Engineer</p>
+                            <ul class="list-group list-group-unbordered mb-3">
+                                <li class="list-group-item">
+                                    <b>Age</b> <a class="float-right" id="userAge"></a>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>E-mail</b> <a class="float-right" id="userEmail"></a>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Phone</b> <a class="float-right" id="userCell"></a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+
+                    </div>
+
+
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h2 class="card-title title" >
+                                ABOUT ME
+                            </h2>
+                        </div>
+
+                        <div class="card-body">
+                            <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
+                            <p class="text-muted" id="userLocation"></p>
+
+                            <hr>
+                            <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong>
+                            <p class="text-muted">
+                                <span class="badge badge-danger">UI Design</span>
+                                <span class="badge badge-success">Coding</span>
+                                <span class="badge badge-info">Javascript</span>
+                                <span class="badge badge-warning">PHP</span>
+                                <span class="badge badge-primary">Node.js</span>
+                            </p>
+
+                            <hr>
+                            <strong><i class="far fa-file-alt mr-1"></i> Notes</strong>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+                        </div>
+                    </div>
+                </div>
+           
+
+             <div class="col-md-9">
+                <div class="row">
+                <div class="card card-primary">
+                    <div class="card-header p-2">
+                        
+                        <h2 class="card-title title" >
+                            EXPERIENCE
+                        </h2>
+                        
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Jun, 2019 – Current</h3>
+                        <p class="light">Senior Developer</p>
+                        <p class="justified">Plaid gentrify put a bird on it, pickled XOXO farm-to-table irony raw denim messenger bag leggings. Hoodie PBR&B photo booth, vegan chillwave meh paleo freegan ramps. Letterpress shabby chic fixie semiotics. Meditation sriracha banjo pour-over. Gochujang pickled hashtag mixtape cred chambray. Freegan microdosing VHS, 90's bicycle rights aesthetic hella PBR&B. </p>
+                        
+                        <h3>May, 2018 – Jun, 2019</h3>
+                        <p class="light">Senior Developer</p>
+                        <p class="justified">Beard before they sold out photo booth distillery health goth. Hammock franzen green juice meggings, ethical sriracha tattooed schlitz mixtape man bun stumptown swag whatever distillery blog. Affogato iPhone normcore, meggings actually direct trade lomo plaid franzen shoreditch. Photo booth pug paleo austin, pour-over banh mi scenester vice food truck slow-carb. Street art kogi normcore, vice everyday carry crucifix thundercats man bun raw denim echo park pork belly helvetica vinyl. </p>
+                        
+                        <h3>September, 2016 – May, 2017</h3>
+                        <p class="light">Junior Developer</p>
+                        <p class="justified">Next level roof party lo-fi fingerstache skateboard, kogi tumblr. Shabby chic put a bird on it chambray, 3 wolf moon swag beard brooklyn post-ironic taxidermy art party microdosing keffiyeh marfa. Put a bird on it 3 wolf moon cliche helvetica knausgaard. Mumblecore fingerstache lomo, artisan freegan keffiyeh paleo kinfolk kale chips street art blog flannel.</p>
+        
+                    </div>
+
+       
+                </div>
+
+                <div class="card card-primary">
+                    <div class="card-header p-2">
+                        
+                        <h2 class="card-title title">
+                            EDUCATION
+                        </h2>
+                        
+                    </div>
+    
+                    <div class="card-body">
+                        <p>Etiam erat velit scelerisque in dictum non consectetur. Nisl purus in mollis nunc sed id semper. Cras fermentum odio eu feugiat pretium nibh ipsum. Tristique senectus et netus et malesuada fames.</p>   
+                    </div>
+              
+                </div>
+
+                </div>            
+            </div>
+        </div>
+               
+    </section>
+
+   
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+             
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="main-footer">
+        <div class="float-right d-none d-sm-block">
+            <strong>Copyright &copy; 2023 </strong> 
+        </div>
+        
+    </footer>
+
+
+</body>
+</html>

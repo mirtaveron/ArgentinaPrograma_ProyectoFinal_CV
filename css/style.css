@@ -1,0 +1,11 @@
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.1); 
+}
